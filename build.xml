@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Module>
+	
+	<GlobalSolutionName>ThirdParty</GlobalSolutionName>
+	<GlobalNamespace>potato</GlobalNamespace>
+
+	<StaticLibrary>
+		<Name>thirdparty_openfbx</Name>
+		<SourceRoot>src</SourceRoot>
+		<ExportedIncludeDirectory>src</ExportedIncludeDirectory>
+		<ThirdParty>true</ThirdParty>
+		<ThirdPartySourceFile>ofbx.cpp</ThirdPartySourceFile>
+		<Dependency>thirdparty_libdeflate</Dependency>
+	</StaticLibrary>
+
+</Module>

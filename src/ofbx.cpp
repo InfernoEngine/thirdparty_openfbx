@@ -1,5 +1,5 @@
 #include "ofbx.h"
-#include "libdeflate.h"
+#include <libdeflate.h>
 #include <cassert>
 #include <math.h>
 #include <ctype.h>
